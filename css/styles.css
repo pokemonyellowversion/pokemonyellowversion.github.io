@@ -1,3 +1,11 @@
-body {
-	background-image: url("http://more-sky.com/data/out/6/IMG_94242.jpg");
+/*body {
+	background-image: url("http://i.imgur.com/vXGhSU9.jpg");
+}*/
+
+.button {
+  width: 60px;
+  height: 50px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 5px;
 }
