@@ -1,11 +1,59 @@
-/*body {
-	background-image: url("http://i.imgur.com/vXGhSU9.jpg");
-}*/
+body {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.left-container {
+  float: left;
+}
+
+.right-container {
+  float: right;
+}
+
+/* The navigation bar */
+
+.navbar {
+  overflow: hidden;
+  background-color: #DCDCDC;
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 .button {
-  width: 60px;
-  height: 50px;
-  background-color: black;
+  width: 75px;
+  height: 75px;
   border-radius: 10px;
   margin: 5px;
+  box-shadow: 5px 5px 2px #888888;
+  background-color: white;
+}
+
+.button-img {
+  max-width: 64px;
+  max-height: 100%;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+#eggplantify {
+  background-color:#fcd7f6;
+}
+
+#pinterest {
+  background-color:white;
+}
+
+#x-wing {
+  background-image:url("/images/x-wing-background.jpg");
 }
