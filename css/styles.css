@@ -7,9 +7,14 @@ body {
   width: 100%;
 }
 
+span {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 10px;
+}
+
 .main {
   background-image: url("/images/california.jpg");
-  height: 550px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -40,13 +45,12 @@ h4 {
 /* The navigation bar */
 
 .navbar {
-  overflow: hidden;
-  /*background-color: #DCDCDC;*/
   position: fixed;
   bottom: 0; 
   width: 100%;
   margin: 0 auto;
-  padding-left: 300px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .navbar a {
@@ -61,29 +65,16 @@ h4 {
 }
 
 .button {
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
   border-radius: 10px;
   margin: 5px;
-  box-shadow: 5px 5px 2px #888888;
-  background-color: white;
+  display: inline-block;
 }
 
 .button-img {
-  max-width: 64px;
+  max-width: 45px;
   max-height: 100%;
   vertical-align: middle;
   padding: 5px;
-}
-
-#eggplantify {
-  background-color:#fcd7f6;
-}
-
-#pinterest {
-  background-color:white;
-}
-
-#x-wing {
-  background-image:url("/images/x-wing-background.jpg");
 }
