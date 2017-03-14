@@ -82,21 +82,45 @@ h4 {
 /*ABOUT*/
 
 #about {
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 100px;
   width: 100%;
 }
 
-#hello {
+.left-text {
   float: left;
   position: relative;
   display: inline-block;
-  width: 50%;
+  width: 40%;
   font-family: 'Open Sans', sans-serif;
   padding: 0 70px;
 }
 
-#skills {
+h3 {
+  font-size: 40px;
+}
+
+.left-img {
   display: inline-block;
-  width: 50%;
+  width: 600px;
+}
+
+#work {
+  padding-top: 10px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+#work-img {
+  display: inline-block;
+  width: 600px;
+}
+
+#work-text {
+  float: right;
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 70px;
 }
