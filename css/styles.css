@@ -78,3 +78,25 @@ h4 {
   vertical-align: middle;
   padding: 5px;
 }
+
+/*ABOUT*/
+
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+#hello {
+  float: left;
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 70px;
+}
+
+#skills {
+  display: inline-block;
+  width: 50%;
+}
