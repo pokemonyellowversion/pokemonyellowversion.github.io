@@ -36,7 +36,7 @@ h4 {
   font-size: 48px;
 }
 
-/* The navigation bar */
+/*NAVBAR*/
 
 .navbar {
   position: fixed;
@@ -44,7 +44,8 @@ h4 {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  background-color: white;
 }
 
 .navbar a {
@@ -82,7 +83,6 @@ h4 {
 h3 {
   font-size: 40px;
   font-family: 'Lato', sans-serif;
-  margin-top: 0;
 }
 
 .left-text {
@@ -114,6 +114,16 @@ h3 {
   width: 35%;
   padding: 0 2.5%;
   font-family: 'Open Sans', sans-serif;
+}
+
+#right-text h3 {
+  margin: 0 0 20px 0;
+}
+
+#right-text a {
+  text-decoration: none;
+  font-weight: bold;
+  /*color: black;*/
 }
 
 .carousel {
