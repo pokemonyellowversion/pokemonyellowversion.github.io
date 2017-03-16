@@ -82,6 +82,7 @@ h4 {
 h3 {
   font-size: 40px;
   font-family: 'Lato', sans-serif;
+  margin-top: 0;
 }
 
 .left-text {
@@ -117,7 +118,6 @@ h3 {
 
 .carousel {
   position: relative;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
   margin-top: 26px;
 }
 
