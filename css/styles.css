@@ -85,13 +85,10 @@ h3 {
   font-family: 'Lato', sans-serif;
 }
 
-.left-text {
-  float: left;
-  position: relative;
-  display: inline-block;
-  width: 40%;
+#about {
+  width: 45%;
   font-family: 'Open Sans', sans-serif;
-  padding: 0 70px;
+  margin: 0 auto;
 }
 
 .left-img {
@@ -235,7 +232,7 @@ h3 {
 }
 
 div#blog.tumblrInjection {
-  width: 600px;
+  width: 45%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
 }
