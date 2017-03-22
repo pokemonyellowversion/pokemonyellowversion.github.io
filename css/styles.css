@@ -234,7 +234,7 @@ h3 {
   padding-top: 20px;
 }
 
-#blog.tumblrInjection {
+div#blog.tumblrInjection {
   width: 600px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
