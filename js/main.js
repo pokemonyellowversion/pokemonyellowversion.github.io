@@ -1,0 +1,15 @@
+document.getElementById('tumblrInjectionPhoto1').setAttribute('src', tumblr_api_read.posts[0]['photo-url-500']);
+document.getElementById('tumblrInjection1').setAttribute('href', tumblr_api_read.posts[0]['url-with-slug']);
+document.getElementById('tumblrInjectionText1').innerHTML = tumblr_api_read.posts[0]['photo-caption'];
+document.getElementById('tumblrInjectionPhoto2').setAttribute('src', tumblr_api_read.posts[1]['photo-url-500']);
+document.getElementById('tumblrInjection2').setAttribute('href', tumblr_api_read.posts[1]['url-with-slug']);
+document.getElementById('tumblrInjectionText2').innerHTML = tumblr_api_read.posts[1]['photo-caption'];
+document.getElementById('tumblrInjectionPhoto3').setAttribute('src', tumblr_api_read.posts[2]['photo-url-500']);
+document.getElementById('tumblrInjection3').setAttribute('href', tumblr_api_read.posts[2]['url-with-slug']);
+document.getElementById('tumblrInjectionText3').innerHTML = tumblr_api_read.posts[2]['photo-caption'];
+document.getElementById('tumblrInjectionPhoto4').setAttribute('src', tumblr_api_read.posts[3]['photo-url-500']);
+document.getElementById('tumblrInjection4').setAttribute('href', tumblr_api_read.posts[3]['url-with-slug']);
+document.getElementById('tumblrInjectionText4').innerHTML = tumblr_api_read.posts[3]['photo-caption'];
+document.getElementById('tumblrInjectionPhoto5').setAttribute('src', tumblr_api_read.posts[4]['photo-url-500']);
+document.getElementById('tumblrInjection5').setAttribute('href', tumblr_api_read.posts[4]['url-with-slug']);
+document.getElementById('tumblrInjectionText5').innerHTML = tumblr_api_read.posts[4]['photo-caption'];
