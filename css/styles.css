@@ -229,3 +229,21 @@ h3 {
 #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet {
   color: #428bca;
 }
+
+#blog {
+  padding-top: 20px;
+}
+
+#blog.tumblrInjection {
+  width: 600px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#blog.tumblrInjection h2 {
+  font-size: 40px;
+}
+
+#blog.tumblrInjection img {
+  width: 100%;
+}
