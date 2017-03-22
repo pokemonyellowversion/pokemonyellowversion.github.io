@@ -76,8 +76,8 @@ h4 {
 /*ABOUT*/
 
 #about {
-  padding: 50px 0;
   width: 100%;
+  padding: 3% 0;
 }
 
 h3 {
@@ -91,41 +91,12 @@ h3 {
   margin: 0 auto;
 }
 
-.left-img {
-  display: inline-block;
-  width: 40%;
-  padding-left: 50px;
-}
-
 /*WORK*/
 
 #work {
-  padding: 10px 0 100px 0;
-  width: 100%;
-}
-
-#right-text {
-  float: right;
-  position: relative;
-  display: inline-block;
-  width: 35%;
-  padding: 0 2.5%;
+  margin: 0 auto;
+  width: 55%;
   font-family: 'Open Sans', sans-serif;
-}
-
-#right-text h3 {
-  margin: 0 0 20px 0;
-}
-
-#right-text a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #48C9B0;
-}
-
-.carousel {
-  position: relative;
-  margin-top: 26px;
 }
 
 .carousel-inner {
@@ -144,12 +115,17 @@ h3 {
   opacity: 0;
   -webkit-transition: opacity 0.6s ease-out;
   transition: opacity 0.6s ease-out;
+  margin: 10%;
+}
+
+.carousel-item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #48C9B0;
 }
 
 .carousel-item img {
-  display: inline-block;
-  height: auto;
-  max-width: 60%;
+  width: 100%;
 }
 
 .carousel-control {
@@ -228,7 +204,7 @@ h3 {
 }
 
 #blog {
-  padding-top: 20px;
+  padding-top: 3%;
 }
 
 div#blog.tumblrInjection {
@@ -238,7 +214,7 @@ div#blog.tumblrInjection {
 }
 
 #blog.tumblrInjection h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #blog.tumblrInjection img {
