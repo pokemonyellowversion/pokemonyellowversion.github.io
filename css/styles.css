@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
 
 @media only screen and (min-width: 320px) {
-  #about {
+  #about, #work, #blog {
     width: 80vw;
   }
+  #about {
+    padding-bottom: 27%;
+  }
+  #work {
+    padding-bottom: 30%;
+  }
   h1 {
-    padding-top: 20%;
+    padding-top: 25%;
     font-size: 95px;
   }
-
   h2 {
     top: 30%;
     font-size: 75px;
   }
-
   h4 {
     top: 40%;
     font-size: 38px;
@@ -24,13 +28,19 @@
 }
 
 @media only screen and (min-width: 500px) {
-  #about {
+  #about, #work, #blog {
     width: 75vw;
+  }
+  #about {
+    padding-bottom: 10%;
+  }
+  #work {
+    padding-bottom: 15%;
   }
 }
 
 @media only screen and (min-width: 600px) {
-  #about {
+  #about, #work, #blog {
     width: 65vw;
   }
   h1 {
@@ -50,19 +60,24 @@
 }
 
 @media only screen and (min-width: 800px) {
-  #about {
+  #about, #work, #blog {
     width: 55vw;
+    max-width: 600px;
+  }
+  #about {
+    padding-bottom: 0;
+  }
+  #work {
+    padding-bottom: 0;
   }
   h1 {
     padding-top: 4%;
     font-size: 130px;
   }
-
   h2 {
     top: 30%;
     font-size: 95px;
   }
-
   h4 {
     top: 40%;
     font-size: 48px;
@@ -94,57 +109,6 @@ h1, h2, h4 {
   font-family: 'Lato', sans-serif;
 }
 
-/*h1 {
-  padding-top: 5%;
-  font-size: 130px;
-}
-
-h2 {
-  top: 30%;
-  font-size: 95px;
-}
-
-h4 {
-  top: 40%;
-  font-size: 48px;
-}*/
-
-/*NAVBAR*/
-
-.navbar {
-  position: fixed;
-  bottom: 0; 
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px 0;
-  background-color: white;
-}
-
-.navbar a {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
-}
-
-.button {
-  width: 60px;
-  height: 60px;
-  border-radius: 10px;
-  margin: 5px;
-  display: inline-block;
-}
-
-.button-img {
-  max-width: 45px;
-  max-height: 100%;
-  vertical-align: middle;
-  padding: 5px;
-}
-
 /*ABOUT SECTION*/
 h3 {
   font-size: 2em;
@@ -153,7 +117,6 @@ h3 {
 }
 
 #about {
-  max-width: 600px;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
@@ -163,11 +126,9 @@ h3 {
   padding-top: 17%;
 }
 
-/*WORK*/
-
+/*WORK SECTION*/
 #work {
   margin: 0 auto;
-  width: 60vw;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
 }
@@ -259,12 +220,12 @@ h3 {
   color: #428bca;
 }
 
+/*BLOG SECTION*/
 #blog {
   padding-top: 3%;
 }
 
-div#blog.tumblrInjection {
-  width: 45%;
+#blog.tumblrInjection {
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
 }
@@ -279,4 +240,38 @@ div#blog.tumblrInjection {
 
 #blog.tumblrInjection img {
   width: 100%;
+}
+/*NAVBAR*/
+.navbar {
+  position: fixed;
+  bottom: 0; 
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  background-color: white;
+}
+
+.navbar a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.button-img {
+  max-width: 45px;
+  max-height: 100%;
+  vertical-align: middle;
+  padding: 5px;
 }
