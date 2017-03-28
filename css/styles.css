@@ -1,59 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
 
-@media only screen and (min-width: 320px) {
-  #about, #work, #blog {
-    width: 80vw;
-  }
-  #about {
-    padding-bottom: 27%;
-  }
-  #work {
-    padding-bottom: 30%;
-  }
-  .navbar a {
-    padding: 0 5px;
-  }
-}
-
-@media only screen and (min-width: 500px) {
-  #about, #work, #blog {
-    width: 75vw;
-  }
-  #about {
-    padding-bottom: 10%;
-  }
-  #work {
-    padding-bottom: 15%;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  #about, #work, #blog {
-    width: 65vw;
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  #about, #work, #blog {
-    width: 55vw;
-    max-width: 600px;
-  }
-  #about {
-    padding-bottom: 0;
-  }
-  #work {
-    padding-bottom: 0;
-  }
-  .navbar a {
-    padding: 0 15px;
-  }
-}
-
 body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
+}
+
+#about, #work, #blog {
+  width: 55vw;
+  max-width: 600px;
+  padding-top: 2%;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
 }
 
 /*HOME SECTION*/
@@ -91,23 +50,7 @@ h3 {
   margin: 2% 0;
 }
 
-#about {
-  height: 100vh;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
-}
-
-.hello-about {
-  padding-top: 17%;
-}
-
 /*WORK SECTION*/
-#work {
-  margin: 0 auto;
-  height: 100vh;
-  font-family: 'Open Sans', sans-serif;
-}
-
 .carousel-inner {
   position: relative;
   overflow: hidden;
@@ -196,10 +139,6 @@ h3 {
 }
 
 /*BLOG SECTION*/
-#blog {
-  padding-top: 3%;
-}
-
 #blog.tumblrInjection {
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
@@ -234,6 +173,7 @@ h3 {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
+  padding: 0 1vw;
 }
 
 .button {
