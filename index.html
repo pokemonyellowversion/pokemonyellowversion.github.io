@@ -2,11 +2,13 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyprint">
+    <link href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" type="text/css" rel="stylesheet"/>
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <title>Holly Nguyen | Web Developer</title>
   </head>
-  <body>
+  <body onload="prettyPrint()">
   <div id="home" class="main">
     <h1>HOLLY</h1>
     <h2>NGUYEN</h2>
@@ -96,12 +98,14 @@
       <h3>BLOG: Diary of a Table Flipper</h3>
       <h3>(╯°□°）╯︵ ┻━┻</h3>
     </center>
+    
     <div class='tumblrInjectionLine'><a id='tumblrInjection1' href=''><img id='tumblrInjectionPhoto1' border='0' style='margin:3px' src='' alt='' /></a><p id='tumblrInjectionText1'></p><hr><br></div>
     <div class='tumblrInjectionLine'><a id='tumblrInjection2' href=''><img id='tumblrInjectionPhoto2' border='0' style='margin:3px' src='' alt='' /></a><p id='tumblrInjectionText2'></p><hr><br></div>
     <div class='tumblrInjectionLine'><a id='tumblrInjection3' href=''><img id='tumblrInjectionPhoto3' border='0' style='margin:3px' src='' alt='' /></a><p id='tumblrInjectionText3'></p><hr><br></div>
     <div class='tumblrInjectionLine'><a id='tumblrInjection4' href=''><img id='tumblrInjectionPhoto4' border='0' style='margin:3px' src='' alt='' /></a><p id='tumblrInjectionText4'></p><hr><br></div>
     <div class='tumblrInjectionLine'><a id='tumblrInjection5' href=''><img id='tumblrInjectionPhoto5' border='0' style='margin:3px' src='' alt='' /></a><p id='tumblrInjectionText5'></p></div>
   </div>
+
 
   <div class="navbar">
     <a href="#home">
@@ -126,6 +130,7 @@
   </div>
 
   <script type='text/javascript' src='http://holly-nguyen.tumblr.com/api/read/json?number=5&type=photo'></script>
+  <script type="text/javascript" src="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
   <script src="js/main.js"></script>
   </body>
 </html>

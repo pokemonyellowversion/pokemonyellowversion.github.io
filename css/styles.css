@@ -275,3 +275,9 @@ h3 {
   vertical-align: middle;
   padding: 5px;
 }
+
+pre {
+  background: #DCDCDC;
+  font-size: 1.3em;
+  overflow: scroll;
+}
