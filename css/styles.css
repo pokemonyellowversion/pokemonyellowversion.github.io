@@ -10,18 +10,6 @@
   #work {
     padding-bottom: 30%;
   }
-  h1 {
-    padding-top: 25%;
-    font-size: 95px;
-  }
-  h2 {
-    top: 30%;
-    font-size: 75px;
-  }
-  h4 {
-    top: 40%;
-    font-size: 38px;
-  }
   .navbar a {
     padding: 0 5px;
   }
@@ -43,20 +31,6 @@
   #about, #work, #blog {
     width: 65vw;
   }
-  h1 {
-    padding-top: 15%;
-    font-size: 100px;
-  }
-
-  h2 {
-    top: 30%;
-    font-size: 75px;
-  }
-
-  h4 {
-    top: 40%;
-    font-size: 38px;
-  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -69,18 +43,6 @@
   }
   #work {
     padding-bottom: 0;
-  }
-  h1 {
-    padding-top: 4%;
-    font-size: 130px;
-  }
-  h2 {
-    top: 30%;
-    font-size: 95px;
-  }
-  h4 {
-    top: 40%;
-    font-size: 48px;
   }
   .navbar a {
     padding: 0 15px;
@@ -97,7 +59,7 @@ body {
 /*HOME SECTION*/
 .main {
   background-image: url("/images/california.jpg");
-  height: 100vh;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -107,6 +69,19 @@ body {
 h1, h2, h4 {
   margin: 0;
   font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: calc(90px + 2vw);
+  padding-top: 9vh;
+}
+
+h2 {
+  font-size: calc(66px + 1.6vw);
+}
+
+h4 {
+  font-size: calc(37px + .6vw);
 }
 
 /*ABOUT SECTION*/
