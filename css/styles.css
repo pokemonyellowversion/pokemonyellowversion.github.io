@@ -73,23 +73,26 @@ h3 {
 }
 /*NAVBAR*/
 .navbar {
-  position: fixed;
+  position: static;
   bottom: 0; 
-  width: 100%;
   margin: 0 auto;
-  text-align: center;
-  padding: 20px 0;
   background-color: white;
 }
 
 .navbar a {
   display: inline-block;
   color: black;
-  text-align: center;
-  text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
   padding: 0 1vw;
+  text-align: center;
+  float: none;
+}
+
+.center {
+  text-align: center;
+  display: inline-block;
+  float: none;
+  padding-top: 1.5vh;
 }
 
 .button {
